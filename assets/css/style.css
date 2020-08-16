@@ -1,0 +1,210 @@
+/* Smooth Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body element preset */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* Navbar Section */
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    transition: 0.8s ease;
+    background: #1bd2d7 !important;
+}
+
+.nav-item {
+    background-color: #1bd2d7 !important;
+    font-weight: 700;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.nav-item a {
+    color: #ffffff;
+}
+
+.nav-item a:hover {
+    color: #ffd13b !important;
+    transition: 0.5s ease;
+}
+
+
+/* About Section */
+
+#about {
+    margin-top: 10rem;
+}
+
+.myself {
+    background-color: #ffffff;
+    margin-bottom: 5rem;
+}
+
+.pro-pic {
+    background: url(../../assets/images/profile.png);
+    background-size: cover;
+    position: relative;
+    height: 35rem;
+    width: 35rem;
+}
+
+.intro {
+    color: #ffd13b;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: left;
+}
+
+.typing {
+    font-size: 4rem;
+}
+
+.details {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgb(122, 122, 122);
+}
+
+
+/* Service Section */
+
+.service-header {
+    text-align: center;
+    font-weight: 700;
+    color: #ffd13b;
+    font-size: 5rem;
+    margin-top: 24%;
+    margin-bottom: 5%;
+}
+
+.card {
+    border: none;
+    width: 100% !important;
+    top: 0%;
+    padding: 2.3rem;
+}
+
+.btn-primary {
+    background-image: linear-gradient(50deg, #ffd13b, #ff693b);
+    border: none;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(50deg, #2dafea, #08f4c4);
+    transition: 0.8s ease;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-text {
+    color: rgb(122, 122, 122);
+}
+
+
+/* Porject Section */
+
+.projects-header {
+    text-align: center;
+    font-weight: 700;
+    color: #ffd13b;
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.recent-work:hover {
+    width: 20rem;
+    transition: 0.7s ease;
+}
+
+
+/* Contact Section */
+
+.contact-header {
+    text-align: center;
+    font-weight: 700;
+    color: #ffd13b;
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.m-icon img {
+    height: 23rem;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* Footer Section */
+
+#footer {
+    height: 400px;
+    max-width: 100%;
+    background-color: #1bd2d7;
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.social-header {
+    font-weight: 700;
+}
+
+.btn-icons {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.btn-icons ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn-icons ul li a {
+    color: #1bd2d7;
+}
+
+.b-menu h3 {
+    font-weight: 700;
+}
+
+.b-menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.b-menu ul li a {
+    color: #1bd2d7;
+}
